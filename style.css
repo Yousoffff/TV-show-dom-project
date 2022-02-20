@@ -21,7 +21,7 @@ body{
     display: grid;
     grid-template-columns: repeat(5,minmax(100px,auto));
     gap: 65px;
-    background-color: rgb(248, 242, 242);
+    background-color: rgb(207, 195, 195);
     margin-left: 0;
 }
 
@@ -35,6 +35,10 @@ body{
 }
 #divmmd :hover{
     
+}
+
+#imgmmd{
+    width: 100%;
 }
 
 #pmmd{

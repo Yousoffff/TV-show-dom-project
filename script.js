@@ -16,6 +16,7 @@ fetch(url)
           showImage(data);
       }else{
       const mmd = data.filter((el) => el.name === select.value);
+      console.log(mmd)
       clear();
       showImage(mmd);
       }
@@ -41,6 +42,7 @@ const showImage = (data) => {
     div.id="divmmd";
 
     const img = document.createElement("img");
+    img.id="imgmmd";
     img.src = movie.image.medium;
 
     const p = document.createElement("p");

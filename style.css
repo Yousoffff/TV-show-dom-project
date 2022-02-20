@@ -20,8 +20,8 @@ body{
 #container{
     display: grid;
     grid-template-columns: repeat(5,minmax(100px,auto));
-    gap: 65px;
-    background-color: rgb(207, 195, 195);
+    gap: 15px;
+    background:linear-gradient(to top,rgb(180, 179, 175),rgb(254, 254, 255));
     margin-left: 0;
 }
 
@@ -30,11 +30,18 @@ body{
     align-items: center;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-    background-color: white;
+    background-color: rgb(243, 237, 237);
+    margin: 10px;
     
 }
-#divmmd :hover{
+#divmmd:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgba(240, 248, 255, 0.877);
     
+}
+
+#divmmd:hover img{
+    opacity: 90%;
 }
 
 #imgmmd{

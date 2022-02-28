@@ -16,7 +16,7 @@ fetch(url)
           showImage(data);
       }else{
       const mmd = data.filter((el) => el.name === select.value);
-      console.log(mmd)
+      console.log(mmd[0].summary)
       clear();
       showImage(mmd);
       }

@@ -80,3 +80,15 @@ h1{
 option{
     font-size: 17px;
 }
+
+
+.img-download {
+  position: relative;
+}
+
+.img-download > a {
+  position: absolute;
+  background: white;
+  bottom: 0;
+  left: 0;
+}
